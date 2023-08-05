@@ -13,7 +13,7 @@ import {
 } from 'react-native';
 
 const ChatScreen = () => {
-  const [loggedIn, setLoggedIn] = useState(false); //test
+  const [loggedIn, setLoggedIn] = useState(false);
   const [username, setUsername] = useState('');
   const [messages, setMessages] = useState([]);
   const [inputMessage, setInputMessage] = useState('');
